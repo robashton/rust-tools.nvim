@@ -78,6 +78,7 @@ function M.start(args)
                             args = {},
                             cwd = args.workspaceRoot,
                             stopOnEntry = false,
+                            sourceLanguages = { "rust" },
 
                             -- if you change `runInTerminal` to true, you might need to change the yama/ptrace_scope setting:
                             --
